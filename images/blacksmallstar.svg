@@ -1,0 +1,24 @@
+<svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="15" height="16" fill="#E4E4E4"/>
+<g id="beauty landing" clip-path="url(#clip0_30_13827)">
+<rect width="1440" height="3694" transform="translate(-1316 -929)" fill="white"/>
+<g id="background">
+<path id="background_2" fill-rule="evenodd" clip-rule="evenodd" d="M-300.776 1732.67C-472.005 1815.41 -634.293 1917.18 -823.624 1899.43C-1021.09 1880.92 -1195.68 1780.32 -1331.73 1636.03C-1486.73 1471.62 -1629.6 1278.15 -1622.33 1052.3C-1614.46 807.497 -1509.86 540.53 -1292.85 426.909C-1088.84 320.095 -867.028 518.559 -637.474 536.655C-377.964 557.113 -91.1712 377.303 113.756 537.796C339.091 714.273 461.414 1053.37 367.594 1323.8C278.609 1580.29 -56.3185 1614.54 -300.776 1732.67Z" fill="url(#paint0_linear_30_13827)" fill-opacity="0.2"/>
+<path id="Star 3" d="M4.48249 0.567997L8.55906 5.56521L14.9653 4.82356L9.96813 8.90013L10.7098 15.3064L6.63321 10.3092L0.226925 11.0508L5.22413 6.97428L4.48249 0.567997Z" fill="#747272"/>
+</g>
+<g id="&#208;&#177;&#208;&#187;&#208;&#190;&#208;&#186; 2">
+<g id="&#208;&#184;&#208;&#183;&#208;&#190;&#208;&#177;&#209;&#128;&#208;&#176;&#208;&#182;.">
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_30_13827" x1="-465" y1="372" x2="-465" y2="1592.5" gradientUnits="userSpaceOnUse">
+<stop offset="0.334676" stop-color="#2B7FFF"/>
+<stop offset="0.634564" stop-color="#2B7FFF" stop-opacity="0"/>
+<stop offset="0.894715" stop-color="#2B7FFF" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_30_13827">
+<rect width="1440" height="3694" fill="white" transform="translate(-1316 -929)"/>
+</clipPath>
+</defs>
+</svg>
