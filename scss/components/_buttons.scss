@@ -1,0 +1,20 @@
+/* Button */
+.button {
+  font-weight: 700;
+  color: var(--color-primary-white);
+  background-color: var(--color-primary-blue);
+  border: 2px solid var(--color-primary-blue);
+  border-radius: 32px;
+  cursor: pointer;
+  padding: 16px 32px;
+
+  &:hover {
+    color: var(--color-primary-dark);
+    background-color: var(--color-primary-white);
+  }
+
+  &__explanation {
+    font-size: 12px;
+    line-height:1.5;
+  }
+}

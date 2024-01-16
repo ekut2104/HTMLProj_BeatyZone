@@ -1,0 +1,11 @@
+.hero-section {
+  padding: 124px 0;
+
+  &__title {
+    font-family: Play;
+    font-size: 140px;
+    font-weight: 700;
+    line-height: 0.8;
+    color: var(--color-primary-blue);
+  }
+}
