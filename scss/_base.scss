@@ -1,5 +1,6 @@
 /* Base */
 body {
+  margin: 0;
   color: var(--color-primary-dark);
   font-family: "Roboto", sans-serif;
   font-size: 18px;
@@ -9,5 +10,7 @@ body {
 }
 
 ul {
+  padding: 0;
   list-style-type: none;
 }
+

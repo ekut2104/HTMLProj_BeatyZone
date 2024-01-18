@@ -1,0 +1,13 @@
+.header {
+  background-color: bisque;
+
+  &__nav {
+    display: flex;
+  }
+
+  &__social {
+    &__icon {
+      fill: var(--color-secondary-darkblue);
+    }
+  }
+}

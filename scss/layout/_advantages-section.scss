@@ -1,0 +1,15 @@
+.advantages-section {
+  &__title {
+    font-family: Play;
+    font-size: 64px;
+    font-weight: 700;
+  }
+  &__icon {
+    width: 48px;
+    height: 48px;
+    fill: var(--color-primary-blue);
+  }
+  &__text {
+    line-height: 1.33;
+  }
+}
