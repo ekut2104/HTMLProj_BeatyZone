@@ -1,5 +1,9 @@
 .advantages-section {
+  margin-top: 176px;
+
   &__title {
+    text-align: center;
+    margin: 0;
     font-family: Play;
     font-size: 64px;
     font-weight: 700;
@@ -11,5 +15,17 @@
   }
   &__text {
     line-height: 1.33;
+  }
+  &__cards {
+    width: calc();
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__card {
+    text-align: center;
+    border-radius: 32px;
+    background: var(--color-primary-white);
+    box-shadow: 0px 4px 4px 0px rgba(168, 198, 245, 0.38);
   }
 }

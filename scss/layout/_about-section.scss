@@ -1,11 +1,48 @@
 .aboutus-section {
+  &__block {
+    display: flex;
+    gap: 28px;
+    flex-basis: 100%;
+  }
+
+  &__text-block {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    max-width: 710px;
+    gap: 40px;
+  }
+
   &__title {
+    margin: 0;
     font-family: Play;
     font-size: 64px;
     font-weight: 700;
   }
+
   &__text {
+    margin: 0;
     font-size: 22px;
     line-height: 1.72;
+  }
+
+  &__image-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__image {
+    flex-basis: 100%;
+    border-radius: 70%;
+  }
+
+  &__image:first-child {
+    align-self: flex-start;
+  }
+
+  &__image:last-child {
+    align-self: flex-end;
   }
 }
