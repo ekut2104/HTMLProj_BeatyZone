@@ -1,4 +1,5 @@
 .advantages-section {
+  // max-width: 1060px;
   margin-top: 176px;
 
   &__title {
@@ -14,15 +15,18 @@
     fill: var(--color-primary-blue);
   }
   &__text {
+    margin: 0;
+    padding-top: 8px;
     line-height: 1.33;
   }
   &__cards {
-    width: calc();
     display: flex;
-    flex-wrap: wrap;
+    gap: 56px;
+    padding-top: 48px;
   }
 
   &__card {
+    padding: 24px 32px;
     text-align: center;
     border-radius: 32px;
     background: var(--color-primary-white);

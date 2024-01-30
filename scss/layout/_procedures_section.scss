@@ -1,8 +1,27 @@
 .procedures_section {
+  margin-top: 96px;
+
   &__title {
     font-family: Play;
     font-size: 64px;
     font-weight: 700;
+    margin: 0 auto;
+    padding-bottom: 48px;
+    text-align: center;
   }
- 
+
+  &__slider {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  &__container {
+    overflow: hidden;
+  }
+
+  &__list {
+    margin-bottom: 32px;
+    width: 300px;
+  }
 }
