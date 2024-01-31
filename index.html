@@ -161,6 +161,7 @@
                         src="./images/face_masks.jpg"
                         alt="маска для лиця"
                       />
+                      <h3 class="procedures-card__title">Маски для обличчя</h3>
                     </article>
                   </li>
                   <li class="swiper-slide">
@@ -170,6 +171,9 @@
                         src="./images/face_needle.jpg"
                         alt="інєкції для обличча"
                       />
+                      <h3 class="procedures-card__title">
+                        Ін'єкції для обличчя
+                      </h3>
                     </article>
                   </li>
                   <li class="swiper-slide">
@@ -179,6 +183,7 @@
                         src="./images/face_cleaner.jpg"
                         alt="очещення обличчя"
                       />
+                      <h3 class="procedures-card__title">Очищення обличчя</h3>
                     </article>
                   </li>
                   <li class="swiper-slide">
@@ -221,21 +226,73 @@
             </div>
           </div>
         </section>
-
         <section class="contacts-section" id="contacts-section">
           <div class="container">
             <h2 class="contacts-section__title">
               Як нас <span class="text-brand">знайти</span>
             </h2>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.9325734713498!2d30.515600377684475!3d50.44235657159063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C70YzQstCw0YAg0KLQsNGA0LDRgdCwINCo0LXQstGH0LXQvdC60LAsIDUsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1705497571882!5m2!1suk!2sua"
-              width="600"
-              height="450"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+            <div class="contacts-section__container">
+              <iframe
+                class="contacts-section__map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.9325734713498!2d30.515600377684475!3d50.44235657159063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C70YzQstCw0YAg0KLQsNGA0LDRgdCwINCo0LXQstGH0LXQvdC60LAsIDUsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1705497571882!5m2!1suk!2sua"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+              <div class="contacts-section__form">
+                <p class="input-form__text">
+                  Запишіться <span class="text-brand">безкоштовно</span> <br />
+                  та отримайте подарунок
+                </p>
+                <form  name="contact-form" autocomplete="off" novalidate>
+                  <div class="input-form__field-input">
+                    <label
+                      class="input-form__lable visually-hidden"
+                      for="user-name"
+                      >Ваше ім'я та прізвище</label
+                    >
+                    <input
+                      class="input-form__control"
+                      type="text"
+                      id="user-name"
+                      name="user-name"
+                      placeholder="Ваше ім'я та прізвище"
+                    />
+                  </div>
+                  <div class="input-form__field-input">
+                    <label
+                      class="input-form__lable visually-hidden"
+                      for="user-name"
+                      >Телефон</label
+                    >
+                    <input
+                      class="input-form__control"
+                      type="text"
+                      id="user-name"
+                      name="user-name"
+                      placeholder="Ваш номер телефону"
+                    />
+                  </div>
+                  <div class="input-form__field-input">
+                    <label
+                      class="input-form__lable visually-hidden"
+                      for="user-name"
+                      >Ваша електронна пошта</label
+                    >
+                    <input
+                      class="input-form__control"
+                      type="text"
+                      id="user-name"
+                      name="user-name"
+                      placeholder="Ваша електронна пошта"
+                    />
+                  </div>
+                </form>
+              </div>
+            </div>
           </div>
         </section>
       </div>

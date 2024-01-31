@@ -1,0 +1,38 @@
+.input-form {
+  position: relative;
+  padding: 0px 56px;
+
+  &__text {
+    margin: 0;
+    padding: 0px 18px 32px 18px;
+    color: var(--color-primary-white);
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  &__field-input {
+    // width: 100%;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  &__lable {
+    position: absolute;
+    flex-shrink: 0;
+    top: 16px;
+    left: 42px;
+  }
+  &__control {
+    width: 100%;
+    padding: 18px 32px;
+    background-color: var(--color-primary-dark);
+    border-radius: 32px;
+    border: 2px solid #747272;
+
+    &::placeholder {
+      color: var(--color-primary-white);
+    }
+  }
+}
